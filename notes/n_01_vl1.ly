@@ -20,7 +20,7 @@ ConcertoCIViolinoI = {
 		f4~ f16 f g a h a g f e d c h %10
 		e4~ e16 e f g a g f e d c h a
 		h g' d h c8 f e d16 c d4\trill
-		c16 g' f e a f g f e g, f e a g g f
+		c16 g' f e a f g f e g, f e a f-\critnote g f
 		e c' g f e8 d c4\fermata r
 		R1*4 %18
 		r2 g'4\p h16 c d fis,

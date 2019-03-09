@@ -159,6 +159,11 @@ pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
 
+markDaCapo = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "Da capo al segno" }
+}
+
 tempoMarkup =
 	#(define-music-function
 		(parser location arg)

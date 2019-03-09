@@ -58,7 +58,25 @@ ConcertoCIIViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoAndante
-		
+		\partial 8 r8 \bar ".|:"
+		c'8\p c~ c c d c~ c c
+		as' g f es es\trill d r d
+		es es~ es es d d~ d d
+		c c~ c c c c~ c c
+		b b~ b f'~ f es g g~ %5
+		g f as as g c,16. as'32 g8 f
+		es es~ es es es es as g
+		f \tuplet 3/2 8 { as16 c f, } g8 f\trill es4. \bar ":|.|:" r8
+		es es~ es es f es~ es es
+		es es as g g\trill f r b16 g %10
+		e8 e~ e e f f~ f f
+		d d~ d d es es~ es es
+		c c~ c c c c d as
+		g g~ g d'~ d c~ c es~
+		es d~ d f es e f fis %15
+		g f~ f f es \tuplet 3/2 8 { as16 f d } es8 d
+		c c~ c c c c h g
+		g \tuplet 3/2 8 { as16 f d } es8 d c4. \bar ":|." %18 finis
 	}
 }
 

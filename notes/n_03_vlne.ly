@@ -88,7 +88,25 @@ ConcertoCIIViolone = {
 	\relative c {
 		\clef bass
 		\key c \dorian \time 4/4 \tempoAndante
-		
+		\partial 8 r8 \bar ".|:"
+		c'8\p c16 c c8 es f es es es
+		c c g g g g g h
+		c c as as b b g g
+		as as as as as as as as
+		b b b b b b b b %5
+		b b d d es as, b b
+		c g as as g g f es
+		as as b b es[ b es,] \bar ":|.|:" r
+		es es es g as g g g
+		as g f es b' b, b' b %10
+		b b b b as as as as
+		as? as as as g g g g
+		as as as as as as f f
+		g g g g g g g g
+		g g h h c b as a %15
+		h h h h c f, g g
+		as es f f es-\critnote es d h
+		c f g g, c[ g c] \bar ":|." %18 finis
 	}
 }
 

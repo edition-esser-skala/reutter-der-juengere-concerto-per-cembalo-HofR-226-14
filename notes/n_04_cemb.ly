@@ -148,15 +148,75 @@ ConcertoCIICembaloR = {
 	\relative c' {
 		\clef treble
 		\key c \dorian \time 4/4 \tempoAndante
-		\partial 8 g'8 \tuplet 3/2 8 { c16 h c } c8 \tuplet 3/2 8 { c16 es d c h c d h c } c8 \tuplet 3/2 8 { c16 g' f es d c }
+		\partial 8 g'8
+		\tuplet 3/2 8 { c16 h c } c8 \tuplet 3/2 8 { c16 es d c[ h c] d h c } c8 \tuplet 3/2 8 { c16 g' f es[ d c] }
+		\tuplet 3/2 8 { as' f as g[ c c,] f d f es[ c' c,] } << { es8[ d] } \\ { c[ h] } >> r d
+		\tuplet 3/2 8 { es16 d es } es8 \tuplet 3/2 8 { es16 f g as[ b c] d, c d } d8 \tuplet 3/2 8 { d16 es f g[ as b] }
+		\tuplet 3/2 8 { c, h c } c8 \tuplet 3/2 8 { c16 f g as[ g f] f c' b b[ as g?] f as g g[ f es] }
+		\tuplet 3/2 8 { d f b, } b8 \tuplet 3/2 8 { b16 b f' f[ b, as'] as g f } g8 \tuplet 3/2 8 { g16 b, g' g[ b, b'] } %5
+		\tuplet 3/2 8 { b as g } as8 \tuplet 3/2 8 { as16 b, as' as[ c as] g b b, c[ c' as] } g8 f\trill
+		\tuplet 3/2 8 { es16 d es es[ b' es,] es d es es[ c' es,] es d es es[ b' es,] es as f f[ g es] }
+		\tuplet 3/2 8 { c c' b as[ c f,] } g8 f\trill << { <es b>4 } \\ { g, } >> r8 \bar ":|.|:" b
+		\tuplet 3/2 8 { es16 d es } es8 \tuplet 3/2 8 { es16 g f es[ d es] f d es } es8 \tuplet 3/2 8 { es16[ b' as] g f es }
+		\tuplet 3/2 8 {  c'[ as c] b d, es as[ f as] g b b, } << { g'8[ f] } \\ { es[ d] } >> r << { b'16 g } \\ { des8 } >> %10
+		<< { \tuplet 3/2 8 { e16 d e } e8 \tuplet 3/2 8 { e16[ g f] e d c } } \\ { c8 c~ c c } >> \tuplet 3/2 8 { f16 e f } f8~ \tuplet 3/2 8 { f16 f g as[ b c] }
+		\tuplet 3/2 8 { d, c d } d8~ \tuplet 3/2 8 { d16[ f es] d c b es d es } es8~ \tuplet 3/2 8 { es16 es f g[ as b] }
+		\tuplet 3/2 8 { c, h c } c8 \tuplet 3/2 8 { c16[ c' b] b as g f[ as g] g f es d[ f es] es d c }
+		\tuplet 3/2 8 { h fis g } g8 \tuplet 3/2 8 { g16 g d'~ d[ g, f'?] f es d } es8 \tuplet 3/2 8 { es16[ g, es'] es g, g' }
+		\tuplet 3/2 8 { g f es } f8 \tuplet 3/2 8 { f16[ g, f'] as g f es[ d es] e d e f[ e f] fis e fis } %15
+		\tuplet 3/2 8 { g e f } f8~ \tuplet 3/2 8 { f16[ d' c] h g f es[ g c] as f d } es8 d
+		\tuplet 3/2 8 { c16[ h c] c g' c,~ c[ h c] c as' c, c[ h c] c c' c, f[ e f] f es d }
+		\tuplet 3/2 8 { es h c as[ f d] } es8 d c4. \bar ":|." %18 finis
 	}
 }
 
 ConcertoCIICembaloL = {
-	\relative c {
-		\clef bass
+	\relative c' {
+		\clef treble
 		\key c \dorian \time 4/4 \tempoAndante
-		
+		\partial 8 r8 \bar ".|:"
+		<< {
+			es8[ es] es g as[ g] g g
+			f[ es] \clef bass d c g[ g] g g'
+			\clef treble g[ g] f f f[ f] es es
+			es[ es] c c f[ f] f f
+			f[ d] d d es[ es] es es %5
+			f[ f] f f es[ es] es d
+			\clef bass c[ b] c c b[ b] d es
+			es[ f] es d es4 r8
+		} \\ {
+			c8[ c] c es f[ es] es es
+			c[ c] g g g[ g] g h
+			c[ c] as as b[ b] g g
+			as[ as] as as as[ as] as as
+			b[ b] b b b[ b] b b %5
+			b[ b] d d es[ as,] b b
+			c[ g] as as g[ g] f es
+			as[ as] b b r b[ es,]
+		} >> \bar ":|.|:" r
+		<< {
+			g8[ g] g b c[ b] b es
+			es[ es] d es b4 b8 b %10
+			b[ b] b b c[ c] c c
+			f[ f] f f b,[ b] b es
+			es[ es] c c c[ c] as as
+			d[ h] h h c[ c] c c
+			d[ d] d d c[ c] c c %15
+			d[ d] d d c[ c] c h
+			as[ g] as as g[ g] as g
+			g[ f] c' h s4.
+		} \\ {
+			es,8[ es] es g as[ g] g g
+			as[ g] f es b'[ b,] b' b %10
+			b[ b] b b as?[ as] as as
+			as?[ as] as as g[ g] g g
+			as[ as] as as as[ as] f f
+			g[ g] g g g[ g] g g
+			g[ g] h h c[ b]-\critnote as a %15
+			h[ h] h h c[ f,] g g
+			as[ es] f f es[ es] d h
+			c[ f] g g, \oneVoice c[ g c,]
+	} >> \bar ":|." %18 finis
 	}
 }
 

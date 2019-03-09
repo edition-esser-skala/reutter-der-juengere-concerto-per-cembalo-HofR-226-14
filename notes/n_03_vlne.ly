@@ -80,7 +80,7 @@ ConcertoCIViolone = {
 		c r c, r %70
 		c r c r
 		c r8 a' g4 g,
-		e' r e8 a g g, \markDaCapo \bar "|" %73 finis
+		e' r e8 a g g, \markDaCapo \bar "||" %73 finis
 	}
 }
 

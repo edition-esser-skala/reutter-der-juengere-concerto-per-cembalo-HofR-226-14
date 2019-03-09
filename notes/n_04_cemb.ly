@@ -60,7 +60,7 @@ ConcertoCICembaloR = {
 		g' f e d c h a g c h a g f e d c %70
 		g' f e d c h a g \clef bass c h a g f e d c
 		c4 \clef treble r8 << { f'' e d16 c d4\prallprall } \\ { c8 c4 h } >>
-		c16 h a g f e d c c'8 c,16 d << { e8 d } \\ { c h } >> \markDaCapo \bar "|" %73 finis
+		c16 h a g f e d c c'8 c,16 d << { e8 d } \\ { c h } >> \markDaCapo \bar "||" %73 finis
 	}
 }
 
@@ -140,7 +140,7 @@ ConcertoCICembaloL = {
 		c^\critnote r c, r %70
 		c r c r
 		c r8 a' g4 g,
-		e' r e8 a g g, \markDaCapo \bar "|" %73 finis
+		e' r e8 a g g, \markDaCapo \bar "||" %73 finis
 	}
 }
 

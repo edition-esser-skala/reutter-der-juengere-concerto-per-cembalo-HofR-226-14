@@ -58,6 +58,7 @@
 		\header {
 			movement = "II"
 		}
+		\paper { indent = 0\cm }
 		\score {
 			<<
 				\new StaffGroup <<

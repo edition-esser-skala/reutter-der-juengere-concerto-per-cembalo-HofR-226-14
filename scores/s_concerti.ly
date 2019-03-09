@@ -18,40 +18,72 @@
 % 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
 % 		\partTitle "1" "C O N C E R T O   I N   C"
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "I"
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\ConcertoCIViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\ConcertoCIViolinoII
+% 						}
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = "Violone"
+% 						\ConcertoCIViolone
+% 					>>
+% 				>>
+% 				\new PianoStaff <<
+% 					\set PianoStaff.instrumentName = "Cembalo"
+% 					\new Staff {
+% 						\ConcertoCICembaloR
+% 					}
+% 					\new Staff {
+% 						\ConcertoCICembaloL
+% 					}
+% 				>>
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4 = 90 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "I"
+			movement = "II"
 		}
 		\score {
 			<<
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ConcertoCIViolinoI
+							\ConcertoCIIViolinoI
 						}
 						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\ConcertoCIViolinoII
+							\ConcertoCIIViolinoII
 						}
 					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Violone"
-						\ConcertoCIViolone
-					>>
+					\new Staff {
+						\ConcertoCIIViolone
+					}
 				>>
 				\new PianoStaff <<
-					\set PianoStaff.instrumentName = "Cembalo"
 					\new Staff {
-						\ConcertoCICembaloR
+						\ConcertoCIICembaloR
 					}
 					\new Staff {
-						\ConcertoCICembaloL
+						\ConcertoCIICembaloL
 					}
 				>>
 			>>
 			\layout { }
-			\midi { \tempo 4 = 90 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

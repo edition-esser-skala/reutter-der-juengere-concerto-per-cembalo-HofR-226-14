@@ -175,6 +175,7 @@ tempoMarkup =
 
 
 tempoAllegro = \tempoMarkup "Allegro"
+tempoAndante = \tempoMarkup "Andante"
 
 
 \layout {

@@ -54,6 +54,14 @@ ConcertoCIViolinoI = {
 	}
 }
 
+ConcertoCIIViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoAndante
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

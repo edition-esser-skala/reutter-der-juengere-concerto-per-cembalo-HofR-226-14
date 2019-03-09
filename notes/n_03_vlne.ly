@@ -84,6 +84,14 @@ ConcertoCIViolone = {
 	}
 }
 
+ConcertoCIIViolone = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoAndante
+		
+	}
+}
+
 % Violone = {
 % 	\relative c {
 % 		\clef bass

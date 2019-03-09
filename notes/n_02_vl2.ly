@@ -53,3 +53,11 @@ ConcertoCIViolinoII = {
 		R1 \markDaCapo \bar "||" %73 finis
 	}
 }
+
+ConcertoCIIViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoAndante
+		
+	}
+}

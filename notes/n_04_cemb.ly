@@ -144,6 +144,22 @@ ConcertoCICembaloL = {
 	}
 }
 
+ConcertoCIICembaloR = {
+	\relative c' {
+		\clef treble
+		\key c \dorian \time 4/4 \tempoAndante
+		\partial 8 g'8 \tuplet 3/2 8 { c16 h c } c8 \tuplet 3/2 8 { c16 es d c h c d h c } c8 \tuplet 3/2 8 { c16 g' f es d c }
+	}
+}
+
+ConcertoCIICembaloL = {
+	\relative c {
+		\clef bass
+		\key c \dorian \time 4/4 \tempoAndante
+		
+	}
+}
+
 % CembaloR = {
 % 	\relative c' {
 % 		\clef treble

@@ -8,7 +8,7 @@
 
 \paper {
 	first-page-number = #1
-	systems-per-page = #1
+	systems-per-page = #2
 }
 
 #(set-global-staff-size 15.87)

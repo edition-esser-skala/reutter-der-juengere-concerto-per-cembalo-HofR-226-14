@@ -214,6 +214,10 @@ tempoAllegro = \tempoMarkup "Allegro"
          (stretchability . 0))
 	}
 	\context {
+		\PianoStaff
+		\override InstrumentName.font-shape = #'italic
+	}
+	\context {
 		\Staff
 		\override InstrumentName.font-shape = #'italic
 		\accidentalStyle neo-modern-voice

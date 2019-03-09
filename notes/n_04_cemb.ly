@@ -220,6 +220,22 @@ ConcertoCIICembaloL = {
 	}
 }
 
+ConcertoCIIICembaloR = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoAllegro
+		
+	}
+}
+
+ConcertoCIIICembaloL = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/8 \tempoAllegro
+		c4 e8
+	}
+}
+
 % CembaloR = {
 % 	\relative c' {
 % 		\clef treble

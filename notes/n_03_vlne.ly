@@ -110,10 +110,10 @@ ConcertoCIIViolone = {
 	}
 }
 
-% Violone = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
+ConcertoCIIIViolone = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/8 \tempoAllegro
+		
+	}
+}

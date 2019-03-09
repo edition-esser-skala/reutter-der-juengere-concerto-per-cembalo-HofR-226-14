@@ -79,3 +79,11 @@ ConcertoCIIViolinoII = {
 		c c~ c h c4. \bar ":|." %18 finis
 	}
 }
+
+ConcertoCIIIViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoAllegro
+		
+	}
+}

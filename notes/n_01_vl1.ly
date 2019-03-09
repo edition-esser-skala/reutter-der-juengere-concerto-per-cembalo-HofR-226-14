@@ -80,6 +80,14 @@ ConcertoCIIViolinoI = {
 	}
 }
 
+ConcertoCIIIViolinoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/8 \tempoAllegro
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

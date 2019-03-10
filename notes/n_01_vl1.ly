@@ -138,6 +138,14 @@ ConcertoCIIIViolinoI = {
 	}
 }
 
+ConcertoFIViolinoI = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 4/4 \tempoAllegro
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

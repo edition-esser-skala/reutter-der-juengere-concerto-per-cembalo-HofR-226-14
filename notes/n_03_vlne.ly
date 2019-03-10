@@ -232,3 +232,11 @@ ConcertoCIIIViolone = {
 		c4 r8\fermata \bar ":|." %116 FINIS
 	}
 }
+
+ConcertoFIViolone = {
+	\relative c {
+		\clef bass
+		\key f \major \time 4/4 \tempoAllegro
+		
+	}
+}

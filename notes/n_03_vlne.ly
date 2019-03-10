@@ -114,6 +114,121 @@ ConcertoCIIIViolone = {
 	\relative c {
 		\clef bass
 		\key c \major \time 3/8 \tempoAllegro
-		
+		c4\f e8
+		f e d
+		c4 e8
+		f e c
+		f d h %5
+		c4 f8
+		g4 a8
+		h g h
+		c e c
+		h g h %10
+		c e c
+		f, e d
+		c g' g,
+		f' e d
+		c g' g, %15
+		c g c,
+		c'4\p e8
+		f e d
+		c4 e8
+		f e c %20
+		f d h
+		c4 e8
+		f4 fis8
+		g4 g,8
+		fis' d fis %25
+		g h g
+		fis d fis
+		g h a
+		g h g
+		c e c %30
+		h g h
+		c e c
+		a a g
+		fis a d,
+		r a' g %35
+		fis a d,
+		g c, d
+		e e e
+		fis fis fis
+		g4 r8 %40
+		h g r
+		h g r
+		fis4 g8
+		c, d d,
+		g-\critnote d' g \bar ":|.|:" %45
+		g4\fE h8
+		c h a
+		g4\pE h8
+		c h a
+		g4 h8 %50
+		a c d
+		g, h c
+		fis, a h
+		e, g a
+		d,4 fis8 %55
+		g h g
+		c e c
+		h g h
+		c e c
+		e, c e %60
+		f a f
+		e c e
+		f a g
+		fis d fis
+		g h g %65
+		fis d fis
+		g h a
+		gis e gis
+		a c a
+		fis d fis %70
+		g h g
+		e c e
+		fis a fis
+		dis h dis
+		e h' h, %75
+		e\f fis g
+		a g fis
+		e h' h,
+		a' g fis
+		e h' h, %80
+		e g16 f! e d
+		c4\pE e8
+		f e d
+		c4\fE e8
+		f e d %85
+		c4\p e8
+		f e c
+		f d h
+		c f fis
+		g4 f8 %90
+		e c e
+		f a g
+		f! d f
+		g h a
+		g! e g %95
+		a c h
+		a d d,
+		e c e
+		f f, f'
+		g g, g' %100
+		a a a
+		h h h
+		c4 r8
+		e c r
+		e c r %105
+		h4 c8
+		f, g g,
+		e'4 r8
+		e c r
+		c g' g, %110
+		c\f d e
+		f e d
+		c g' g,
+		f' e d
+		c g' g, %115
+		c4 r8\fermata \bar ":|." %116 FINIS
 	}
 }

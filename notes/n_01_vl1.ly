@@ -133,8 +133,8 @@ ConcertoCIIIViolinoI = {
 		\tuplet 3/2 8 { a16 h, c g'[ h, c] f d h }
 		\tuplet 3/2 8 { e[ g c,] } e8 d
 		\tuplet 3/2 8 { a'16 h, c g'[ h, c] f d h }
-		\tuplet 3/2 8 { e[ h c] } e,8 d
-		c4 r8\fermata \bar ":|."
+		\tuplet 3/2 8 { e[ h c] } e,8 d %115
+		c4 r8\fermata \bar ":|." %116 FINIS
 	}
 }
 

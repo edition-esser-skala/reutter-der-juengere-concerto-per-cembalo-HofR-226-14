@@ -266,13 +266,13 @@ ConcertoCIIICembaloR = {
 		\tuplet 3/2 8 { h c d } g,4
 		\once \tieDashed g'4.~\prallprall-\critnote
 		g~
-		\once \tieDashed g~
-		g-\critnote %60
-		\once \tieDashed c~\prallprall
-		c~
+		g
+		\once \tieDashed c~\prallprall-\critnote %60
 		\once \tieDashed c~
-		c-\critnote
-		\once \tieDashed d~\prallprall %65
+		c~
+		c
+		\once \tieDashed d~\prallprall-\critnote
+		\once \tieDashed d~ %65
 		d~
 		d~
 		d

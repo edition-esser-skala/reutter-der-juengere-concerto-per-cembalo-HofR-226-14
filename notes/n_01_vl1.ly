@@ -84,7 +84,57 @@ ConcertoCIIIViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/8 \tempoAllegro
-		
+		g''8\f c, \tuplet 3/2 8 { c16[ d e] }
+		d h c4
+		\tuplet 3/2 8 { c16 d e e[ f g] } g c,
+		\tuplet 3/2 8 { a' h c } g4
+		\tuplet 3/2 8 { a16 h c f,[ g a] } d, f %5
+		\tuplet 3/2 8 { e[ f g] } f e d c
+		\tuplet 3/2 8 { h c d } g,4
+		g16 g' g4\trill
+		e16 g g4\trill
+		g,16 g' g4\trill %10
+		e16 g g4\trill
+		\tuplet 3/2 8 { a16 h, c g'[ h, c] f d h }
+		\tuplet 3/2 8 { e[ g c,] } e8 d\trill
+		\tuplet 3/2 8 { a'16 h, c g'[ h, c] f d h }
+		\tuplet 3/2 8 { e[ h c] } e,8 d %15
+		c4 r8
+		R4.*10 %26
+		d16\p d' d4\trill
+		h16 d d4\trill
+		R4.*2 %30
+		g,16 g' g4\trill
+		e16 g g4\trill
+		R4.*13 \bar ":|.|:" %45
+		d'8\f g,\tuplet 3/2 8 { g16[ a h] }
+		a fis g4
+		R4.*8 %55
+		g,16\p g' g4\trill
+		e16 g g4\trill
+		R4.*2
+		c,16 c' c4\trill %60
+		a16 c c4\trill
+		R4.*2
+		d,16 d' d4\trillE
+		h16 d d4\trillE %65
+		R4.*10 %75
+		r8 r h\f
+		\tuplet 3/2 8 { c16 dis, e h'[ dis, e] a fis dis }
+		\tuplet 3/2 8 { g h e, } g8[ fis]
+		\tuplet 3/2 8 { c'16 dis, e h'[ dis, e] a fis dis }
+		\tuplet 3/2 8 { g dis e } g,8[ fis] %80
+		e4 r8
+		R4.*2
+		\tuplet 3/2 8 { g'16\fE f! e e[ d c] } c e
+		d h c4 %85
+		R4.*25 %110
+		r8 r g'\fE
+		\tuplet 3/2 8 { a16 h, c g'[ h, c] f d h }
+		\tuplet 3/2 8 { e[ g c,] } e8 d
+		\tuplet 3/2 8 { a'16 h, c g'[ h, c] f d h }
+		\tuplet 3/2 8 { e[ h c] } e,8 d
+		c4 r8\fermata \bar ":|."
 	}
 }
 

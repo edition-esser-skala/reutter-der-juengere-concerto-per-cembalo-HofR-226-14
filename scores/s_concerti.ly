@@ -14,79 +14,79 @@
 #(set-global-staff-size 15.87)
 
 \book {
-% 	\bookpart {
-% 		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
-% 		\partTitle "1" "C O N C E R T O   I N   C"
-% 	}
-% 	\bookpart {
-% 		\header {
-% 			movement = "I"
-% 		}
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino I"
-% 							\ConcertoCIViolinoI
-% 						}
-% 						\new Staff {
-% 							\set Staff.instrumentName = "Violino II"
-% 							\ConcertoCIViolinoII
-% 						}
-% 					>>
-% 					\new Staff <<
-% 						\set Staff.instrumentName = "Violone"
-% 						\ConcertoCIViolone
-% 					>>
-% 				>>
-% 				\new PianoStaff <<
-% 					\set PianoStaff.instrumentName = "Cembalo"
-% 					\new Staff {
-% 						\ConcertoCICembaloR
-% 					}
-% 					\new Staff {
-% 						\ConcertoCICembaloL
-% 					}
-% 				>>
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 90 }
-% 		}
-% 	}
-% 	\bookpart {
-% 		\header {
-% 			movement = "II"
-% 		}
-% 		\paper { indent = 0\cm }
-% 		\score {
-% 			<<
-% 				\new StaffGroup <<
-% 					\new GrandStaff <<
-% 						\new Staff {
-% 							\ConcertoCIIViolinoI
-% 						}
-% 						\new Staff {
-% 							\ConcertoCIIViolinoII
-% 						}
-% 					>>
-% 					\new Staff {
-% 						\ConcertoCIIViolone
-% 					}
-% 				>>
-% 				\new PianoStaff <<
-% 					\new Staff {
-% 						\ConcertoCIICembaloR
-% 					}
-% 					\new Staff {
-% 						\ConcertoCIICembaloL
-% 					}
-% 				>>
-% 			>>
-% 			\layout { }
-% 			\midi { \tempo 4 = 60 }
-% 		}
-% 	}
+	\bookpart {
+		\paper { evenHeaderMarkup = {} oddHeaderMarkup = {} }
+		\partTitle "1" "C O N C E R T O   I N   C"
+	}
+	\bookpart {
+		\header {
+			movement = "I"
+		}
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\set Staff.instrumentName = "Violino I"
+							\ConcertoCIViolinoI
+						}
+						\new Staff {
+							\set Staff.instrumentName = "Violino II"
+							\ConcertoCIViolinoII
+						}
+					>>
+					\new Staff <<
+						\set Staff.instrumentName = "Violone"
+						\ConcertoCIViolone
+					>>
+				>>
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Cembalo"
+					\new Staff {
+						\ConcertoCICembaloR
+					}
+					\new Staff {
+						\ConcertoCICembaloL
+					}
+				>>
+			>>
+			\layout { }
+			\midi { \tempo 4 = 90 }
+		}
+	}
+	\bookpart {
+		\header {
+			movement = "II"
+		}
+		\paper { indent = 0\cm }
+		\score {
+			<<
+				\new StaffGroup <<
+					\new GrandStaff <<
+						\new Staff {
+							\ConcertoCIIViolinoI
+						}
+						\new Staff {
+							\ConcertoCIIViolinoII
+						}
+					>>
+					\new Staff {
+						\ConcertoCIIViolone
+					}
+				>>
+				\new PianoStaff <<
+					\new Staff {
+						\ConcertoCIICembaloR
+					}
+					\new Staff {
+						\ConcertoCIICembaloL
+					}
+				>>
+			>>
+			\layout { }
+			\midi { \tempo 4 = 60 }
+		}
+	}
 	\bookpart {
 		\header {
 			movement = "III"

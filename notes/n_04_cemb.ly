@@ -224,7 +224,98 @@ ConcertoCIIICembaloR = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/8 \tempoAllegro
-		
+		R4.*16 %16
+		g''8 c, \tuplet 3/2 8 { c16[ d e] }
+		d h c4
+		\tuplet 3/2 8 { c16 d e e[ f g] } g c,
+		\tuplet 3/2 8 { a' h c } g4 %20
+		\tuplet 3/2 8 { a16 h c f,[ g a] d, e f }
+		\tuplet 3/2 8 { e[ f g] } f e d c
+		\tuplet 3/2 8 { a' g f f[ e d] } a' c,
+		c8\prall h r
+		d4.\prall %25
+		d\prall
+		d\prall-\critnote
+		d\prall
+		g\prall
+		g\prall %30
+		g\prall-\critnote
+		g\prall
+		c~\prall
+		c\prall
+		c~\prall %35
+		c\prall
+		\tuplet 3/2 8 { h16 a g } a4\trill
+		g16 c, c4\prall
+		a'16 c, c4\prall
+		\tuplet 3/2 8 { h16 c d e[ fis g] g fis e } %40
+		d8 \tuplet 3/2 8 { d16 e fis g[ fis e] }
+		d8 \tuplet 3/2 8 { d16 e fis g[ fis e] }
+		\tuplet 3/2 8 { d c h c[ h a] h a g }
+		\tuplet 3/2 8 { e' d c } << { h8[ a] } \\ { g[ fis] } >>
+		<d g>4. \bar ":|.|:" %45
+		R4.*2
+		\tuplet 3/2 8 { d''16 c h h[ a g] } g h
+		a fis g4
+		\tuplet 3/2 8 { g16 a h h[ c d] } d g, %50
+		\tuplet 3/2 8 { c d e a,[ h c] } fis, a
+		\tuplet 3/2 8 { h c d g,[ a h] } e, g
+		\tuplet 3/2 8 { a h c fis,[ g a] } d, fis
+		\tuplet 3/2 8 { g a h e,[ fis g] } c, e
+		\tuplet 3/2 8 { fis g a d,[ e fis] } a, c %55
+		\tuplet 3/2 8 { h c d } g,4
+		\once \tieDashed g'4.~\prallprall-\critnote
+		g~
+		\once \tieDashed g~
+		g-\critnote %60
+		\once \tieDashed c~\prallprall
+		c~
+		\once \tieDashed c~
+		c-\critnote
+		\once \tieDashed d~\prallprall %65
+		d~
+		d~
+		d
+		\once \tieDashed c~\prallprall
+		c %70
+		h~\prallprall
+		h
+		a~\prallprall
+		a
+		\tuplet 3/2 8 { g16 fis e } fis4\trill %75
+		e4 r8
+		R4.*5 %81
+		g8 c, \tuplet 3/2 8 { c16[ d e] }
+		d h c4
+		R4.*2 %85
+		\tuplet 3/2 8 { c16 d e e[ f g] } g c,
+		\tuplet 3/2 8 { a' h c } g4
+		\tuplet 3/2 8 { a16 h c f,[ g a] d, e f }
+		\tuplet 3/2 8 { e f g a[ g f] e d c }
+		c8\prall h r %90
+		c4.~\prall
+		c\prall
+		\once \tieDashed d~\prall
+		d\prall
+		e~-\parenthesize\prall %95
+		e-\parenthesize\prall
+		f\prall
+		g\prall
+		a\prall
+		h\prall %100
+		c16 f, f4\prall
+		d'16 f, f4\prall
+		\tuplet 3/2 8 { e16 f g a[ h c] c h a }
+		g8 \tuplet 3/2 8 { g16 a h c[ h a] }
+		g8 \tuplet 3/2 8 { g16 a h c[ h a] } %105
+		\tuplet 3/2 8 { g f e f[ e d] e d c }
+		\tuplet 3/2 8 { a' g f } << { e8[ d] } \\ { c[ h] } >>
+		\tuplet 3/2 8 { c16 d e e[ f g] g a h }
+		c8~ \tuplet 3/2 8 { c16 h a g[ c f,] }
+		\tuplet 3/2 8 { e c' c, } << { e8[ d] } \\ { c[ h] } >> %110
+		<c g e>4.
+		R4.*4 %115
+		R4.\fermataMarkup \bar ":|." %116 FINIS
 	}
 }
 
@@ -233,6 +324,121 @@ ConcertoCIIICembaloL = {
 		\clef bass
 		\key c \major \time 3/8 \tempoAllegro
 		c4 e8
+		f e d
+		c4 e8
+		f e c
+		f d h %5
+		c4 f8
+		g4 a8
+		h g h
+		c e c
+		h g h %10
+		c e c
+		f, e d
+		c g' g,
+		f' e d
+		c g' g, %15
+		c g c,
+		c'4 e8
+		f e d
+		c4 e8
+		f e c %20
+		f d h
+		c4 e8
+		f4 fis8
+		g4 g,8
+		fis' d fis %25
+		g h g
+		fis d fis
+		g h a
+		g h g
+		c e c %30
+		h g h
+		c e c
+		a a g
+		fis a d,
+		r a' g %35
+		fis a d,
+		g c, d
+		<< { g g g } \\ { e e e } >>
+		<< { a a a } \\ { fis fis fis } >>
+		g4 r8 %40
+		h g r
+		h g r
+		fis4 g8
+		c, d d,
+		<< { h''4 } \\ { g, } \\ { d'8\rest d g } >> \bar ":|.|:" %45
+		g4 h8
+		c h a
+		g4 h8
+		c h a
+		g4 h8 %50
+		a c d
+		g, h c
+		fis, a h
+		e, g a
+		d,4 fis8 %55
+		g h g
+		c e c
+		h g^\critnote h
+		c e c
+		e, c e %60
+		f a f
+		e c e
+		f a g
+		fis d fis
+		g h g %65
+		fis d fis
+		g h a
+		gis e gis
+		a c a
+		fis d fis %70
+		g h g
+		e c e
+		fis a fis
+		dis h dis
+		e h' h, %75
+		e fis g
+		a g fis
+		e h' h,
+		a' g fis
+		e h' h, %80
+		e g16 f! e d
+		c4 e8
+		f e d
+		c4 e8
+		f e d %85
+		c4 e8
+		f e c
+		f d h
+		c f fis
+		g4 f8 %90
+		e c e
+		f a g
+		f! d f
+		g h a
+		g! e g %95
+		a c h
+		a d d,
+		e c e
+		f f, f'
+		g g, g' %100
+		<< { c c c } \\ { a a a } >>
+		<< { d d d } \\ { h h h } >>
+		c4 r8
+		e c r
+		e c r %105
+		h4 c8
+		f, g g,
+		e'4 r8
+		e c r
+		c g' g, %110
+		c d e
+		f e d
+		c g' g,
+		f' e d
+		c g' g, %115
+		c4 r8\fermata \bar ":|." %116 FINIS
 	}
 }
 

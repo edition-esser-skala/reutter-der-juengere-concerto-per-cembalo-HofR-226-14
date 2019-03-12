@@ -237,6 +237,78 @@ ConcertoFIViolone = {
 	\relative c {
 		\clef bass
 		\key f \major \time 4/4 \tempoAllegro
-		
+		f,4\fE f f r
+		f8 a g f r a g f
+		b4 a g4. g'8
+		a4 g f4. f8
+		g4 f e4. e8 %5
+		f4 e d b8 h
+		c c e c f4 e
+		d b8 h c c c16 b a g
+		a8 g a f b a b g
+		c b c a d c d b %10
+		e d e c f4 e
+		d8 b c c f,4 d'
+		b8 g c c f, c' f4
+		f,\pE f f r
+		r8 a g f r a g f %15
+		b4 a g g'
+		a g f f,8 f'
+		g4 f e c8 e
+		f4 e d b8 h
+		c c c16 d e d c4 r %20
+		R1*2
+		r8 g' h g c h a g
+		a g f e f d g g,
+		c4 h a8 f g g' %25
+		c,4 h a8 f g4
+		c\fE c c r
+		c8 e d c r e d c
+		f e f d g f g e
+		a g a a, h a h h' %30
+		c4 h a8 f g g,
+		c4 a' f8 d g g,
+		c4 r r2
+		R1*8 %41
+		r8 e gis e a g f e
+		d c h a h a gis gis'
+		a d, e4^\critnote c8 d e4
+		a,\fE a a r %45
+		a8 c h a r c h a
+		r a c a d c h e
+		a,4 f' d8 h e4
+		a, a' f8 d e4
+		a, r a'\pE g %50
+		fis d8 fis g4 r
+		g f e c8 e
+		f4 r f e
+		d4. d8 e4 cis8 a
+		d4\fE d d r %55
+		d8 f e d r f e d
+		R1*7 %63
+		r4 r8 e\pE f e d c
+		d c b a b g c c %65
+		f, d'-\critnote c c f,4\fE f
+		f r f8 a g f
+		r a g f r f'\pE a f
+		b a b g c b c a
+		d c d d, e d e c %70
+		f e f d g4 f
+		e c8 e f4 e
+		d8 b c c f,4 d'
+		b8 g c c a b c c
+		f,4\fE f f r %75
+		f8 a g f r a g f
+		b4 a g4. g'8
+		a4 g f4. f8
+		g4 f e4. e8
+		f4 e d b8 h %80
+		c c e c f4 e
+		d b8 h c c c16 b a g
+		a8 g a f b a b g
+		c b c a d c d b
+		e d e c f4 e %85
+		d8 b c c f,4 d'
+		b8 g c c f,4 r\fermata \bar "|." %87 finis
 	}
 }

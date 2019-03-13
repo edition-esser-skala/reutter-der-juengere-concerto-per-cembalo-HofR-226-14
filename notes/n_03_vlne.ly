@@ -317,6 +317,35 @@ ConcertoFIIViolone = {
 	\relative c {
 		\clef bass
 		\key d \dorian \time 6/8 \tempoAndante
-		
+		d4\pE d8 d4 d'8
+		cis4 d8 d d,4
+		g g8 a4 a,8
+		d4 d8 f4 d8
+		g4 gis8 a4 a,8 %5
+		d4 d8 f4 d8
+		a'4 a,8 cis4 a8
+		d4 d8 f4 d8
+		c!4 c8 e4 c8
+		f4 f8 f,4 f'8 %10
+		g4 e8 f4 d8
+		e4 cis8 d4 gis,8
+		a4 a8 a'4 f8
+		g8. g,16 e'8 f8. f,16 d'8
+		e8. e,16 cis'8 d8. d,16 d'8 %15
+		b8. a16 gis8 a4 a8
+		d8. a16 f8 d4.
+		d'4 d8 d4 d'8
+		cis4 d8 d4 d,8
+		g4 g8 a4 a,8 %20
+		d4 r8 r4 r8
+		R2.*42 %63
+		d8. a16 f8 d4 f'8
+		g4 e8 f4 d8 %65
+		e4 cis8 d4 gis,8
+		a4 a8 a'4 f8
+		g8. g,16 e'8 f8. f,16 d'8
+		e8. e,16 cis'8 d8. d,16 d'8
+		b8. a16 gis8 a4 a8 %70
+		d8. a16 f8 d4.\fermata \bar "|." %71 finis
 	}
 }

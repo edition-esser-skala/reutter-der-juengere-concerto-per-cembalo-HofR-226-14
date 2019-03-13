@@ -243,8 +243,8 @@ ConcertoFIViolone = {
 		a4 g f4. f8
 		g4 f e4. e8 %5
 		f4 e d b8 h
-		c c e c f4 e
-		d b8 h c c c16 b a g
+		c c e c\pE f4 e
+		d b8 h c c c16\fE b a g
 		a8 g a f b a b g
 		c b c a d c d b %10
 		e d e c f4 e
@@ -303,8 +303,8 @@ ConcertoFIViolone = {
 		a4 g f4. f8
 		g4 f e4. e8
 		f4 e d b8 h %80
-		c c e c f4 e
-		d b8 h c c c16 b a g
+		c c e c\pE f4 e
+		d b8 h c c c16\fE b a g
 		a8 g a f b a b g
 		c b c a d c d b
 		e d e c f4 e %85

@@ -566,7 +566,7 @@ ConcertoFICembaloL = {
 		d d d d dis dis dis dis
 		e e e e g g g g
 		a fis fis fis g e e e
-		fis d d d e cis cis cis
+		fis dis? dis dis e cis cis cis
 		d h h h c a a a %40
 		h gis gis gis a h c d
 		e \clef bass e, gis e a g f e
@@ -592,7 +592,7 @@ ConcertoFICembaloL = {
 			r a a[ a] r f f[ f]
 			r g g[ g] r e e[ e]
 			r f f[ f] r d d[ d]
-			d
+			c^\critnote
 		} \\ {
 			r d d[ d] r d d[ d] %57
 			r b' b[ b] r g g[ g]
@@ -601,8 +601,8 @@ ConcertoFICembaloL = {
 			r f f[ f] r d d[ d]
 			r e e[ e] r cis cis[ cis]
 			r d d[ d] r h h[ h]
-			b
-		} >> a16 g a8 \clef bass e f e d c
+			b a16 g a8
+		} >> \clef bass e f e d c
 		d c b a b g c c, %65
 		f d' c c, f4 f
 		f r f8 a g f

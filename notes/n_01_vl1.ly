@@ -142,7 +142,80 @@ ConcertoFIViolinoI = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoAllegro
-		
+		<a' f'>4\fE q f'16 c d e f g a b
+		c8 f, e f c' f, e f
+		r d' r d r16 d c d d,8 d'
+		r c r c r16 c b c c,8 c'
+		r b r b r16 b a b b,8 b' %5
+		r a r a r16 a g a b8 a
+		a g r g,\p r a r a
+		r16 a g a b8 a a g r4
+		f16(\f g32 a b c d e) f4 g,16( a32 b c d e f) g4
+		a,16( b32 c d e f g) a4 \once \slurDashed b,16( c32 d e f g a) b4 %10
+		c,16( d32 e f g a b) c8 b r a r a
+		r16 a b a a8 g r a, r a
+		r16 a b a a8 g f4 r
+		R1*6 %19
+		r2 r8 e\pE e e %20
+		f f f f e e e e
+		d d d d c d e f
+		g g, r4 r2
+		R1*3 %26
+		c'4\f c c16 g a h c d e f
+		g8 c, h c g' c, h c
+		a16( h32 c d e f g) a4 h,16( c32 d e f g a) h4
+		c,16( d32 e f g a h) c4 \once \slurDashed d,16( e32 f g a h c) d8 f, %30
+		r e r e r16 e f e e8 d
+		r e, r e r16 e f e e8 d
+		c\p c c c h h h h
+		h h h h c d e f
+		f e16 d e8 d cis cis cis cis %35
+		d d d d dis dis dis dis
+		e e e e g g g g
+		a fis fis fis g e e e
+		fis dis dis dis e cis cis cis
+		d h h h c a a a %40
+		h gis gis gis a h c d
+		e4 r r2
+		R1*2
+		a4\f a a16 e fis? gis a h c d %45
+		e8 a, gis a e' a, gis a
+		a16( h32 c d e fis gis) a4 \once \slurDashed f32( d e f? g? a h cis?) d16 d c? h
+		r8 c r c r16 c d c c8 h
+		r c, r c r16 c d c c8 h?
+		a4-\critnote r r2 %50
+		R1*4
+		<f d'>4\fE q d'16 a h? cis d e f g %55
+		a8 d, cis d a' d, cis d
+		r f,\p f f r f f f
+		r d' d d r b b b
+		r c c c r a a a
+		r b b b r g g g %60
+		r a a a r f f f
+		r g g g r e e e
+		r f f f r d d d
+		c c r4 r2
+		R1 %65
+		r2 <a' f'>4\f q
+		f'16 c d e f g a b c8 f, e f
+		c' f, e f r4 c16\pE c b a
+		d,4 d'16 d c b e,4 e'16 e d c
+		f,4 f'16 f e d g,4 g'16 g f e %70
+		a,4 r r2
+		R1*3
+		<a f'>4\f q f'16 c d e f g a b %75
+		c8 f, e f c' f, e f
+		r d' r d r16 d c d d,8 d'
+		r c r c r16 c b c c,8 c'
+		r b r b r16 b a b b,8 b'
+		r a r a r16 a g a b8 a %80
+		a g r g,\p r a r a
+		r16 a g a b8 a a g r4
+		f16(\f g32 a b c d e) f4 g,16( a32 b c d e f) g4
+		a,16( b32 c d e f g) a4 b,16( c32 d e f g a) b4
+		c,16( d32 e f g a b) c8 b r a r a %85
+		r16 a b a a8 g r a, r a
+		r16 a b a a8 g f4 r \bar "|." %87 finis
 	}
 }
 

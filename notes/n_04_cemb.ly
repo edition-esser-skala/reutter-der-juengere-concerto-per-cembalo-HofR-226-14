@@ -633,7 +633,99 @@ ConcertoFIICembaloR = {
 	\relative c' {
 		\clef treble
 		\key d \dorian \time 6/8 \tempoAndante
-		
+		R2.*17 %17
+		<< {
+			a''8. b16 a8 a4 a8
+			b4 a8 r r a
+			g8. a16 g8 g8. f16 e8 %20
+			f4. r8 r f
+		} \\ {
+			f8. g16 f8 f4 f8
+			g4 f8 r r f
+			e8. f16 e8 e8. d16 cis8 %20
+			d4. r8 r d
+		} >>
+		es4\prall d8 a'16 f e d cis d
+		es4\prall d8 a'16 f e d cis d
+		g f e d cis d e d cis b a g
+		f8. e16 d8 r r << { f' } \\ { d } >> %25
+		e16 cis h! a gis a a4 << { g'8 } \\ { e } >>
+		f16 g a f cis d a4 << { a'8 } \\ { f } >>
+		g16 e d c! h c g4 << { b'8 } \\ { g } >>
+		a16 b c a e f c4 c'8
+		c16 f, b c d f, r e a b c e, %30
+		r d g a b d, << { s4 s16 a' } \\ { r c, f g a f } >>
+		<< {
+			a4 g8 r16 g f g a8
+			r16 a g a b8 r16 b a b c8
+			r16 c b? c d d d8. c16 b8
+			a8. f16 b8 a8. b16 g8 %35
+		} \\ {
+			f4 e8 r16 e d e f8
+			r16 f e f g8 r16 g f g a8
+			r16 a g a b b b8. a16 g8
+			f4 f8 f4 e8 %35
+		} >>
+		f4 r8 r4 \grace { f16[ g] } as8
+		as? g h, \grace h c4 as'8
+		as? g h, \grace h c4 << { b'8 } \\ { g } >>
+		<< {
+			r16 a g a b8 r16 b a b c8
+			r16 c b c d d d8 c b %40
+		} \\ {
+			r16 f e f g8 r16 g f g a8
+			r16 a g a b b b8 a g %40
+		} >>
+		a32 g f16 e f b g << { a8. b16 g8 } \\ { f4 e8 } >>
+		<< { f4. } \\ { <c a> } >> r4 r8
+		<< {
+			a'8. b16 a8 a4 a8
+			b4 a8 r r a
+			g4 g8 g4 f8 %45
+		} \\ {
+			f8. g16 f8 f4 f8
+			g4 f8 r r f
+			es4 es8 es4 d8 %45
+		} >>
+		e16 cis h a gis a << { g'4 g8 } \\ { e4 e8 } >>
+		f16 d cis d gis, a << { a'4 a8 } \\ { f4 f8 } >>
+		g16 e d c! h c << { b'4 b8 } \\ { g!4 g8 } >>
+		a16 f e d cis d b' f e d cis d
+		<< {
+			f4 e8 r16 e d e f8 %50
+			r16 f e f g8 r16 g f g a8
+			r16 a g a b b b8 a g
+			f8. d16 g8 f8. g16 e8
+			d4.
+		} \\ {
+			d4 cis8 r16 cis h cis d8
+			r16 d cis d e8 r16 e d e f8
+			r16 f e f g g g8 f e
+			d4 d8 d4 cis8
+			d4.
+		} >> r8 r \grace { d16[ e] } f8
+		f e gis, \grace gis a4 f'8 %55
+		f e gis, \grace gis a4-\critnote << { g'8 } \\ { e } >>
+		<< {
+			r16 f e f g8 r16 g f g a8
+			r16 a g a b b b8 a g
+		} \\ {
+			r16 d cis d e8 r16 e d e f8
+			r16 f e f g g g8 f e
+		} >>
+		f32( e d16) cis d g e << { f8. g16 e8 } \\ { d4 cis8 } >>
+		<< {
+			d'8. c16 b8 b8. a16 gis8 %60
+			a4. r8 r g
+		} \\ {
+			d4 d8 d4 d8 %60
+			cis4. r8 r e
+		} >>
+		f32 e d16 cis d g e << { f8. g16 e8 } \\ { d4 cis8 } >>
+		f32 e d16 cis d << { d,[ g] f8. g16 e8 } \\ { d8 d4 cis8 } >> %63
+		<< { d4. } \\ { d } >> r4 r8
+		R2.*6 %70
+		R2.\fermataMarkup \bar "|." %71 finis
 	}
 }
 
@@ -642,6 +734,87 @@ ConcertoFIICembaloL = {
 		\clef bass
 		\key d \dorian \time 6/8 \tempoAndante
 		d4 d8 d4 d'8
+		cis4 d8 d d,4
+		g g8 a4 a,8
+		d4 d8 f4 d8
+		g4 gis8 a4 a,8 %5
+		d4 d8 f4 d8
+		a'4 a,8 cis4 a8
+		d4 d8 f4 d8
+		c!4 c8 e4 c8
+		f4 f8 f,4 f'8 %10
+		g4 e8 f4 d8
+		e4 cis8 d4 gis,8
+		a4 a8 a'4 f8
+		g8. g,16 e'8 f8. f,16 d'8
+		e8. e,16 cis'8 d8. d,16 d'8 %15
+		b8. a16 gis8 a4 a8
+		d8. a16 f8 d4.
+		d'4 d8 d4 d'8
+		cis4 d8 d4 d,8
+		g4 g8 a4 a,8 %20
+		d4 d8 f4 d8
+		\clef treble << {
+			b''4 a8 r r a
+			b4 a8 r r a
+			g4 g8 e4 e8
+		} \\ {
+			g4 f8 r r f
+			g4 f8 r r f
+			e4 e8 cis4 cis8
+		} >>
+		d4 d8 f4 d8 %25
+		a4 a8 cis4 a8
+		d4 e8 f4 d8
+		e4 d8 e4 c!8
+		f4 g8 a4 << { a8 } \\ { f } >>
+		<< {
+			d'4 d8 c4 c8 %30
+			b4 b8 a4 a8
+		} \\ {
+			b4 b8 b4 a8 %30
+			a4 g8 g4 f8
+		} >>
+		c4 c8 c4 r8
+		c4 r8 c4 r8
+		c4 c8 e4 e8
+		f4 d8 c4 c8 %35
+		f4 g8 as4 f8
+		f4 << { g8 g4 } \\ { f8 e4 } >> f8
+		f4 << { g8 g4 } \\ { f8 e4 } >> c8
+		f4 r8 f4 r8
+		f4 f8 e4 e8 %40
+		f4 d8 c4 c8
+		f4 f8 f8. g16 e8
+		d4 d8 d4 d'8
+		cis4 d8 d4 d,8
+		g4 g8 g4 gis8 %45
+		a4 r8 cis,4 a8
+		d4 r8 d4 d8
+		e4 r8 e4 c!8
+		f4 f8 g4 gis8
+		a4 a8 a,4 r8 %50
+		a4 r8 a4 r8
+		a4 d8 cis4 cis8
+		d4 b'8 a4 a,8
+		d4 e8 f4 d8
+		d4 << { e8 e4 } \\ { d8 cis4 } >> d8 %55
+		d4 << { e8 e4 } \\ { d8 cis4 } >> a8
+		d4 r8 d4 r8
+		d4 d8 cis4 cis8
+		d4 b'8 a4 a,8
+		b4 b8 b4 b8 %60
+		a4 h8 cis4 a8
+		d4 b8 a4 a8
+		d4 b8 a4 a8
+		\clef bass d,8. a16 f8 d4 f'8
+		g4 e8 f4 d8 %65
+		e4 cis8 d4 gis,8
+		a4 a8 a'4 f8
+		g8. g,16 e'8 f8. f,16 d'8
+		e8. e,16 cis'8 d8. d,16 d'8
+		b8. a16 gis8 a4 a8 %70
+		d8. a16 f8 d4.\fermata \bar "|." %71 finis
 	}
 }
 

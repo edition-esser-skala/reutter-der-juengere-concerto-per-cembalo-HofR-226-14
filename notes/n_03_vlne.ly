@@ -312,3 +312,11 @@ ConcertoFIViolone = {
 		b8 g c c f,4 r\fermata \bar "|." %87 finis
 	}
 }
+
+ConcertoFIIViolone = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 6/8 \tempoAndante
+		
+	}
+}

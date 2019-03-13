@@ -219,6 +219,14 @@ ConcertoFIViolinoI = {
 	}
 }
 
+ConcertoFIIViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 6/8 \tempoAndante
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

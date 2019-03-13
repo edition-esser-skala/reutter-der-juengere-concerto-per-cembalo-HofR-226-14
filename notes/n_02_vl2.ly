@@ -218,3 +218,11 @@ ConcertoFIViolinoII = {
 		r16 f g f f8 e\trill f4 r\fermata \bar "|." %87 finis
 	}
 }
+
+ConcertoFIIViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 6/8 \tempoAndante
+		
+	}
+}

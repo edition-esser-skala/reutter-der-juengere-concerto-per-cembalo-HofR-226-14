@@ -629,6 +629,22 @@ ConcertoFICembaloL = {
 	}
 }
 
+ConcertoFIICembaloR = {
+	\relative c' {
+		\clef treble
+		\key d \dorian \time 6/8 \tempoAndante
+		
+	}
+}
+
+ConcertoFIICembaloL = {
+	\relative c {
+		\clef bass
+		\key d \dorian \time 6/8 \tempoAndante
+		d4 d8 d4 d'8
+	}
+}
+
 % CembaloR = {
 % 	\relative c' {
 % 		\clef treble

@@ -215,7 +215,7 @@ ConcertoFIViolinoI = {
 		a,16( b32 c d e f g) a4 b,16( c32 d e f g a) b4
 		c,16( d32 e f g a b) c8 b r a r a %85
 		r16 a b a a8 g r a, r a
-		r16 a b a a8 g f4 r \bar "|." %87 finis
+		r16 a b a a8 g f4 r\fermata \bar "|." %87 finis
 	}
 }
 

@@ -142,6 +142,79 @@ ConcertoFIViolinoII = {
 	\relative c' {
 		\clef treble
 		\key f \major \time 4/4 \tempoAllegro
-		
+		<a' f'>4\fE q q r
+		a8 c b a r c b a
+		r b' r b r16 b a b b,8 b'
+		r a r a r16 a g a a,8 a'
+		r g r g r16 g f g g,8 g' %5
+		r f r f r16 f e f g8 f
+		f e r e,\p r f r f
+		r16 f e f g8 f f e r4
+		f4\f c'16 c b a d,4 d'16 d c b
+		e,4 e'16 e d c f,4 f'16 f e d %10
+		g,4 g'8 g r f r f
+		r16 f g f f8 e r f, r f
+		r16 f g f f8 e\trill f4 r
+		R1*6 %19
+		r2 r8-\critnote e\p e e %20
+		f f f f e e e e
+		d d d d c d e f
+		g g, r4 r2
+		R1*3 %26
+		<e' c'>4\f q q r
+		e8 g f e r g f e
+		f4 d'16 d e f f4 e16 e f g
+		g4 f16 f g a a4 g8 d %30
+		r c r c r16 c d c c8 h
+		r c, r c r16 c d c c8 h
+		c\pE c c c h h h h
+		h? h h h c d e f
+		f e16 d e8 d cis cis cis cis %35
+		d d d d dis dis dis dis
+		e e e e g g g g
+		a fis fis fis g e e e
+		fis dis dis dis e cis cis cis
+		d h h h c a a a %40
+		h gis gis gis a h c d
+		e4 r r2
+		R1*2
+		c4\f c c r %45
+		c8 e d c r e d c
+		r c' e16 e d c f4 h16 h a gis^\critnote
+		r8 a? r a? r16 a h a a8 gis
+		r a, r a r16 a h a a8 gis
+		a4 r r2 %50
+		R1*4
+		<f d'>4\fE q q r %55
+		f8 a g f r-\critnote a g f
+		r d\p d d r d d d
+		r b' b b r g g g
+		r a a a r f f f
+		r g g g r e e e %60
+		r f f f r d d d
+		r e e e r cis cis cis
+		r d d d r h h h
+		b a16 g a4 r2
+		R1 %65
+		r2 <a' f'>4\f q
+		q r a8 c b a
+		r c b a r4 c16\pE c b a
+		d,4 d'16 d c b e,4 e'16 e d c
+		f,4 f'16 f e d g,4 g'16 g f e %70
+		a,4 r r2
+		R1*3
+		<a f'>4\fE q q r %75
+		a8 c b a r c b a
+		r b' r b r16 b a b b,8 b'
+		r a r a r16 a g a a,8 a'
+		r g r g r16 g f g g,8 g'
+		r f r f r16 f e f g8 f %80
+		f e r e,\p r f r f
+		r16 f e f g8 f f e r4
+		f4\f c'16 c b a d,4 d'16 d c b
+		e,4 e'16 e d c f,4 f'16 f e d
+		g,4 g'8 g r f r f %85
+		r16 f g f f8 e r f, r f
+		r16 f g f f8 e\trill f4 r\fermata \bar "|." %87 finis
 	}
 }

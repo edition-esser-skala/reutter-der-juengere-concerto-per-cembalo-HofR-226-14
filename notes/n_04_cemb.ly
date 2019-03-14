@@ -819,19 +819,211 @@ ConcertoFIICembaloL = {
 }
 
 ConcertoFIIICembaloR = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 	\relative c' {
 		\clef treble
 		\key f \major \time 2/4 \tempoAllegro
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		R2*16 %16
+		r8 \once \slurDashed c''32( b a g) f8 f
+		f[ \grace { b16 c } d8 c e,]
+		f c'32( b a g) f8 f
+		f[ \grace { b16 c } d8 c e,] %20
+		f16 c f a g c, g' b
+		a f a c b g b d
+		c8 f, r16 c' b c
+		d b b8\prall d16 b b8\prall
+		c16 a a8\prall c16 a a8\prall %25
+		b16 g g8\prall b16 g g8\prall
+		a16 f f8\prall g16 e e8\prall
+		f16 d d8\prall e16 c c8\prall
+		d g, r d'
+		e16 g g8\prall d16 g g8\prall %30
+		c,16 g' g8\prall h,16 g' g8\prall
+		a16 c c8\prall g16 c c8\prall
+		f,16 c' c8\prall e,16 c' c8\prall
+		a16 c c8\prall g16 c c8\prall
+		f,16 c' c8\prall e,16 c' c8\prall %35
+		d16 c h a g f e d
+		e c f d << { e8 d } \\ { c h } >>
+		\tuplet 3/2 8 { e16 d c f[ e d] g f e a[ g f] }
+		g c, c' c, << { e8 d } \\ { c h } >>
+		\tuplet 3/2 8 { e16 d c f[ e d] g f e a[ g f] } %40
+		\tuplet 3/2 8 { h[ a g] c h a } d h g f
+		\tuplet 3/2 8 { e[ d c] f e d } << { e8 d } \\ { c h } >>
+		<< { <c g>2 } \\ { e, } >> \bar ":|.|:"
+		R2*2 %45
+		r8 g'32( f e d) c8 c
+		c[ \grace { f16 g } a8 g h,]
+		c16 g c e d g, d' f
+		e c e g f d f a
+		g8 c, r16 g' f g %50
+		a f f8\prall h16 f f8\prall
+		c'16 f, f8\prall d'16 f, f8\prall
+		e16 c' c8\prall e,16 c' c8\prall
+		d,16 h' h8\prall d,16 h' h8\prall
+		c,16 a' a8\prall c,16 a' a8\prall %55
+		\tuplet 3/2 8 { gis16[ fis e] a gis fis h[ a gis] c h a }
+		\tuplet 3/2 8 { d[ c h] c h a } << { c8 h } \\ { a gis } >>
+		\tuplet 3/2 8 { c16 h a d[ c h] } << { c8 h } \\ { a gis } >>
+		<< { <a e>4 } \\ { c, } >> r
+		R2*7 %66
+		r8 e32( d c h) a8 a
+		a[ \grace { d16 e } f8 e a,]
+		f' \once \slurDashed a32( g f e) d8 d
+		d[ \grace { g16 a } b8 a d,] %70
+		h' d32( c h a) g8 g
+		g[ \grace { d16 e } f8 e d]
+		e g32( f e d) c8 c
+		c[ \grace { g'16 a } b!8 a8 g]
+		a c32( b a g) f8 f %75
+		f[ \grace { b16 c } d8 c e,]
+		f[ \grace { b16 c } d8 c e,]
+		f16 c f a g c, g' b
+		a f a c b g b d
+		c a a8\prall d16 a a8\prall %80
+		b16 g g8\prall c16 g g8\prall
+		a16 f f8\prall b16 f f8\prall
+		g16 e e8\prall a16 e e8\prall
+		f16 d d8\prall g16 d d8\prall
+		e c r4 %85
+		R2*3
+		r8 c f16 c c8\prall
+		d16 b b8\prall g'16 d d8\prall
+		e16 c c8\prall a'16 e e8\prall
+		f16 d d8\prall b'16 f f8\prall
+		g16 e e8\prall c'16 g g8\prall
+		\tuplet 3/2 8 { a16[ g f] b a g c[ b a] d c b }
+		c e, f b << { a8 g } \\ { f e } >>
+		\tuplet 3/2 8 { a16[ g f] b a g c[ b a] d c b }
+		\tuplet 3/2 8 { c[ b a] a g f } << { a8 g } \\ { f e } >>
+		\tuplet 3/2 8 { a16[ g f] b a g } << { a8 g } \\ { f e } >>
+		<< { <f c>4 } \\ { a, } >> r
+		R2*7
+		R2\fermataMarkup \bar ":|."
 	}
 }
 
 ConcertoFIIICembaloL = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 	\relative c {
 		\clef bass
 		\key f \major \time 2/4 \tempoAllegro
 			\override Staff.TimeSignature.style = #'single-digit
 		f4. g8
+		a b a g
+		f4. g8
+		a b a g
+		a f e c %5
+		f4. e8
+		f f16 g a8 g
+		f4. f8
+		e4. c8
+		d4 g8 h, %10
+		c4. f8
+		e c d h
+		c4. f8
+		e c d h
+		c a' g g, %15
+		c c'16 b! a8 g
+		f4. g8
+		a b a g
+		f4. g8
+		a b a g %20
+		a f e c
+		f r g r
+		a a16 g a8 f
+		b g r g
+		a f r f %25
+		g e r e
+		f d e c
+		d h c a
+		g g h g
+		c r h r %30
+		a r g r
+		f' r e r
+		d r c r
+		f r e r
+		d r c r %35
+		h4. h8
+		c a' g g,
+		c d e f
+		e a g g,
+		c d e f %40
+		g a h4
+		c8 a g g,
+		c g c,4 \bar ":|.|:"
+		c'4. d8
+		e f e d %45
+		c4. d8
+		e f e d
+		c r h r
+		c r d r
+		e e16 d e8 c %50
+		f r g r
+		a r h r
+		c r a r
+		h r gis r
+		a r f r %55
+		e fis gis a
+		h a e' e,
+		a f e e,
+		a4. h8
+		c d c h %60
+		c a gis gis'
+		a4. d,8
+		c4 h8 e
+		a,4. d8
+		c a h e %65
+		a, f' e e,
+		a4. h8
+		c4. cis8
+		d4. e8
+		f4. fis8 %70
+		g4. a8
+		h4. h8
+		c4. d8
+		e4. e,8
+		f4. g8 %75
+		a b! a g
+		a b a g
+		a f e c
+		f r g r
+		a f r f %80
+		g e r e
+		f d r d
+		e c r c
+		d h r h
+		c4. f8 %85
+		e c d h
+		c4. f8
+		e c d h
+		c c'16 b! a8 f
+		b g r b %90
+		c a r c
+		d b r d
+		e c r e,
+		f g a b
+		a d c c, %95
+		f g a b
+		a b c c,
+		f d' c c,
+		f4. a8^\critnote
+		b4. h8 %100
+		c4. e,8
+		f4. b8
+		a f g e
+		f4. b8
+		a f g c, %105
+		f d c c,
+		f c' f4\fermata \bar ":|." %107 FINIS
 	}
 }

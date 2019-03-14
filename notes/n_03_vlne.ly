@@ -351,10 +351,121 @@ ConcertoFIIViolone = {
 }
 
 ConcertoFIIIViolone = {
+	\overrideTimeSignatureSettings
+			2/4
+			1/8
+			#'(4)
+			#'((end . (((1 . 16) . (4 4)))))
 	\relative c {
 		\clef bass
 		\key f \major \time 2/4 \tempoAllegro
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		f4.\fE g8
+		a b a g
+		f4. g8
+		a b a g
+		a f e c %5
+		f4. e8
+		f f16 g a8 g
+		f4. f8
+		e4. c8
+		d4 g8 h, %10
+		c4. f8
+		e c d h
+		c4. f8
+		e c d h
+		c a' g g, %15
+		c c'16 b! a8 g
+		f4.\pE g8
+		a b a g
+		f4. g8
+		a b a g %20
+		a f e c
+		f r g r
+		a a16 g a8 f
+		b g r g
+		a f r f %25
+		g e r e
+		f d e c
+		d h c a
+		g g h g
+		c r h r %30
+		a r g r
+		f' r e r
+		d r c r
+		f r e r
+		d r c r %35
+		h4. h8
+		c a' g g,
+		c d e f
+		e a g g,
+		c d e f %40
+		g a h4
+		c8 a g g,
+		c g c,4 \bar ":|.|:"
+		c'4.\fE d8
+		e f e d %45
+		c4.\pE d8
+		e f e d
+		c r h r
+		c r d r
+		e e16 d e8 c %50
+		f r g r
+		a r h r
+		c r a r
+		h r gis r
+		a r f r %55
+		e fis gis a
+		h a e' e,
+		a f e e,
+		a4.\fE h8
+		c d c h %60
+		c a gis gis'
+		a4. d,8
+		c4 h8 e
+		a,4. d8
+		c a h e %65
+		a, f' e e,
+		a4.\pE h8
+		c4. cis8
+		d4. e8
+		f4. fis8 %70
+		g4. a8
+		h4. h8
+		c4. d8
+		e4. e,8
+		f4. g8 %75
+		a b! a g
+		a b a g
+		a f e c
+		f r g r
+		a f r f %80
+		g e r e
+		f d r d
+		e c r c
+		d h r h
+		c4.\fE f8 %85
+		e c d h
+		c4. f8
+		e c d h
+		c c'16\pE b! a8 f
+		b g r b %90
+		c a r c
+		d b r d
+		e c r e,
+		f g a b
+		a d c c, %95
+		f g a b
+		a b c c,
+		f d' c c,
+		f4. a8
+		b4. h8 %100
+		c4. e,8
+		f4. b8
+		a f g e
+		f4. b8
+		a f g c, %105
+		f d c c
+		f, c' f4\fermata \bar ":|." %107 FINIS
 	}
 }

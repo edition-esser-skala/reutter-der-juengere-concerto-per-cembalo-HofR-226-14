@@ -753,9 +753,9 @@ ConcertoFIICembaloL = {
 		d'4 d8 d4 d'8
 		cis4 d8 d4 d,8
 		g4 g8 a4 a,8 %20
-		d4 d8 f4 d8
-		\clef treble << {
-			b''4 a8 r r a
+		d4 \clef treble d'8-\critnote f4 d8
+		<< {
+			b'4 a8 r r a
 			b4 a8 r r a
 			g4 g8 e4 e8
 		} \\ {

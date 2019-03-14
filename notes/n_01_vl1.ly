@@ -223,7 +223,75 @@ ConcertoFIIViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \dorian \time 6/8 \tempoAndante
-		
+		a''8.\pE b16 a8 a4 a8
+		\grace { g16[ a] } b4 a8 r r a
+		g8. a16 g8 g8. f16 e8
+		f4 r8 r r a,
+		g4 f8 f8. g16 e8 %5
+		f8. e16 d8 d4 f'8
+		f8. e16 g8 r r g
+		g8. f16 a8 r r a
+		a8. g16 b8 r r b
+		b8.^\critnote a16 c8 r r c~ %10
+		c8. d,16 b'8~ b8. c,16 a'8~
+		a8. b,16 g'8~ g8. a,16 f'8
+		f4 e8 r4 r8
+		b4. a
+		g f %15
+		f4 f8 f8. g16 e8
+		d4.~ d
+		R2.*3 %20
+		r8 r d f4 d8
+		g4 f8 r r f
+		g4 f8 r r f
+		e4 e8 cis4 cis8
+		d4 d8 f4 d8 %25
+		a4 a8 cis4 a8
+		d4 e8 f4 d8
+		e4 d8 e4 c!8
+		f4 g8 a4 a8
+		d4 d8 c4 c8 %30
+		b4 b8 a4 f8
+		c4 c8 c4 r8
+		c4 r8 c4-\critnote r8
+		c4 c8 e4 e8
+		f4 d8 c4 c8 %35
+		f4 g8 as4 f8
+		f4 f8 e4 f8
+		f4 f8 e4 c8
+		f4 r8 f4 r8
+		f4 f8 e4 e8 %40
+		f4 d8 c4 c8
+		f4 f8 f8. g16 e8
+		d4 d8 d4 d'8
+		cis4 d8 d4 d,8
+		g4 g8 g4 gis8 %45
+		a4 r8 cis,4 a8
+		d4 r8 d4 d8
+		e4 r8 e4 c! 8
+		f4 f8 g4 gis8
+		a4 a8 a,4 r8 %50
+		a4 r8 a4 r8
+		a4 a8 cis4 cis8 %????
+		d4 b'8 a4 a,8
+		d4 e8 f4 d8
+		d4 d8 cis4 d8 %55
+		d4 d8 cis4 a8
+		d4 r8 d4 r8
+		d4 d8 cis4 cis8
+		d4 b'8 a4 a,8
+		b4 b8 b4 b8 %60
+		a4 h8 cis4 a8
+		d4 b'8 a4 a,8
+		d4 b8 a4 a8
+		d4. r8 r a''
+		b8. d,16 b'8~ b8. c,16 a'8~ %65
+		a8. b,16 g'8~ g8. a,16 f'8
+		f4 e8 r4 r8
+		b4. a
+		g f
+		f4 f8 f8. g16 e8 %70
+		d4.~ d\fermata \bar "|." %71 finis
 	}
 }
 

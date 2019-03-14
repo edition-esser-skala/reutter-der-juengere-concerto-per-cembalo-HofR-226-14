@@ -349,3 +349,12 @@ ConcertoFIIViolone = {
 		d8. a16 f8 d4.\fermata \bar "|." %71 finis
 	}
 }
+
+ConcertoFIIIViolone = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/4 \tempoAllegro
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}

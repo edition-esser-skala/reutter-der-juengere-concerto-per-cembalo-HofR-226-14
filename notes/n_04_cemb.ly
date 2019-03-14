@@ -818,18 +818,20 @@ ConcertoFIICembaloL = {
 	}
 }
 
-% CembaloR = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-% 
-% CembaloL = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
+ConcertoFIIICembaloR = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/4 \tempoAllegro
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}
+
+ConcertoFIIICembaloL = {
+	\relative c {
+		\clef bass
+		\key f \major \time 2/4 \tempoAllegro
+			\override Staff.TimeSignature.style = #'single-digit
+		f4. g8
+	}
+}

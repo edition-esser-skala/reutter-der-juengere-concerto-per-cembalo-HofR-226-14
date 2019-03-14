@@ -294,3 +294,12 @@ ConcertoFIIViolinoII = {
 		d4.~ d\fermata \bar "|."
 	}
 }
+
+ConcertoFIIIViolinoII = {
+	\relative c' {
+		\clef treble
+		\key f \major \time 2/4 \tempoAllegro
+			\override Staff.TimeSignature.style = #'single-digit
+		
+	}
+}

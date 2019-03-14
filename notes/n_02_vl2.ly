@@ -223,6 +223,74 @@ ConcertoFIIViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \dorian \time 6/8 \tempoAndante
-		
+		f'8.\pE g16 f8 f4 f8
+		g4 f8 r r f
+		e8. f16 e8 e8. d16 cis8
+		d4 r8 r r f,
+		es4 d8 d8. e16 cis8 %5
+		d4.~ d4 d'8
+		d8. cis16 e8 r r e
+		e8. d16 f8 r r f
+		f8. e16 g8 r r g
+		g8. f16 a8 r r \once \tieDashed a~ %10
+		a4 g8~ g4 \once \tieDashed f8~
+		f4 \once \tieDashed e8~ e4 \once \tieDashed d8~
+		d4 cis8 r r \once \tieDashed a~
+		a4 g8~ g4 \once \tieDashed f8~
+		f4-\critnote \once \tieDashed e8~ e4 d8 %15
+		d4 d8 d8. e16 cis8
+		d4.~ d
+		R2.*3 %20
+		r8 r d f4 d8
+		g4 f8 r r f
+		g4 f8 r r f
+		e4 e8 cis4 cis8
+		d4 d8 f4 d8 %25
+		a4 a8 cis4 a8
+		d4 e8 f4 d8
+		e4 d8 e4 c!8
+		f4 g8 a4 f8-\critnote
+		b4 b8 b4 a8 %30
+		a4 g8 g4 f8
+		c4 c8 c4 r8
+		c4 r8 c4 r8
+		c4 c8 e4 e8
+		f4 d8 c4 c8 %35
+		f4 g8 as4 f8
+		f4 f8 e4 f8
+		f4 f8 e4 c8
+		f4 r8 f4 r8
+		f4 f8 e4 e8 %40
+		f4 d8 c4 c8
+		f4 f8 f8. g16 e8-\critnote
+		d4 d8 d4 d'8
+		cis4 d8 d4 d,8
+		g4 g8 g4 gis8 %45
+		a4 r8 cis,4 a8
+		d4 r8 d4 d8
+		e4 r8 e4 c! 8
+		f4 f8 g4 gis8
+		a4 a8 a,4 r8 %50
+		a4 r8 a4 r8
+		a4 a8 cis4 cis8
+		d4 b'8 a4 a,8
+		d4 e8 f4 d8
+		d4 d8 cis4 d8 %55
+		d4 d8 cis4 a8
+		d4 r8 d4 r8
+		d4 d8 cis4 cis8
+		d4 b'8 a4 a,8
+		b4 b8 b4 b8 %60
+		a4 h8 cis4 a8
+		d4 b'8 a4 a,8
+		d4 b8 a4 a8
+		d4. r8 r a''~
+		a4 g8~ g4 \once \tieDashed f8~ %65
+		f4 e8~ e4 \once \tieDashed d8~
+		d4 cis8 r r a~
+		a4 g8~ g4 f8~
+		f4 \once \tieDashed e8~ e4 d8
+		d4 d8 d8. e16 cis8 %70
+		d4.~ d\fermata \bar "|."
 	}
 }

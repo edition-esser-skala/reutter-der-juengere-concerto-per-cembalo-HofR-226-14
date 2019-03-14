@@ -272,7 +272,7 @@ ConcertoFIIViolinoI = {
 		f4 f8 g4 gis8
 		a4 a8 a,4 r8 %50
 		a4 r8 a4 r8
-		a4 a8 cis4 cis8 %????
+		a4 a8 cis4 cis8
 		d4 b'8 a4 a,8
 		d4 e8 f4 d8
 		d4 d8 cis4 d8 %55

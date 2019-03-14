@@ -795,7 +795,7 @@ ConcertoFIICembaloL = {
 		f4 f8 g4 gis8
 		a4 a8 a,4 r8 %50
 		a4 r8 a4 r8
-		a4 d8 cis4 cis8
+		a4 a8-\critnote cis4 cis8
 		d4 b'8 a4 a,8
 		d4 e8 f4 d8
 		d4 << { e8 e4 } \\ { d8 cis4 } >> d8 %55
@@ -805,7 +805,7 @@ ConcertoFIICembaloL = {
 		d4 b'8 a4 a,8
 		b4 b8 b4 b8 %60
 		a4 h8 cis4 a8
-		d4 b8 a4 a8
+		d4 b'8^\critnote a4 a,8
 		d4 b8 a4 a8
 		\clef bass d,8. a16 f8 d4 f'8
 		g4 e8 f4 d8 %65

@@ -12,8 +12,8 @@
 	top-margin = 1.5\cm
 	system-separator-markup = ##f
 	system-system-spacing =
-    #'((basic-distance . 17)
-       (minimum-distance . 17)
+    #'((basic-distance . 20)
+       (minimum-distance . 20)
        (padding . -100)
        (stretchability . 0))
 	
@@ -41,7 +41,18 @@
        (padding . 0)
        (stretchability . 1.0e7))
 	
-	systems-per-page = #6
+	systems-per-page = #5
+}
+
+\layout {
+	\context {
+		\PianoStaff
+		\override StaffGrouper.staff-staff-spacing =
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
+         (padding . -100)
+         (stretchability . 0))
+	}
 }
 
 #(set-global-staff-size 17.82)

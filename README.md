@@ -1,8 +1,8 @@
-# Baldassare Galuppi: Messa da morto concertata BurG I/50
+# Georg Reutter d. J.: Concerti per cembalo HofR 226/13+14
 
 Engraving files for LilyPond 2.18.0
 
-First version, December 2018
+First version, March 2019
 
 
 ## Build instructions
@@ -28,36 +28,22 @@ The file *master.ly* allows you to work with an editor like Kile: Change the inc
 * *definitions.ly* – contains general definitions.
 * *master.ly* – allows building movements/parts from within Kile.
 * Individual voices in folder *notes*:
-    * n_01_cor1.ly
-    * n_02_cor2.ly
-    * n_03_tr.ly
-    * n_04_vl1.ly
-    * n_05_vl2.ly
-    * n_06_vla.ly
-    * n_07_S.ly
-    * n_08_A.ly
-    * n_09_T.ly
-    * n_10_B.ly
-    * n_11_org.ly
+    * n_01_vl1.ly
+    * n_02_vl2.ly
+    * n_03_vlne.ly
+    * n_04_cemb.ly
 * Movement definitions in folder *scores*:
-    * s_introitus.ly
-    * s_kyrie.ly
-    * s_sequentia.ly
-    * s_offertorium.ly
+    * s_concerti.ly
 * Parts definitions in folder *parts*:
-    * p_b.ly
-    * p_cor12.ly
-    * p_coro.ly
-    * p_org.ly
-    * p_tr.ly
+    * p_cemb.ly
     * p_vl1.ly
     * p_vl2.ly
-    * p_vla.ly
+    * p_vlne.ly
 
 
 ## Copyright
 
-(c) 2018 by Wolfgang Esser-Skala.
+(c) 2019 by Wolfgang Esser-Skala.
 
 This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.

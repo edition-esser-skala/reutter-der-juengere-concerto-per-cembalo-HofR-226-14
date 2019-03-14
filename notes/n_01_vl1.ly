@@ -305,6 +305,71 @@ ConcertoFIIIViolinoI = {
 		\clef treble
 		\key f \major \time 2/4 \tempoAllegro
 			\override Staff.TimeSignature.style = #'single-digit
-		
+		r8 c''32(\fE b a g) f8 f
+		f d' c e,
+		f c'32( b a g) f8 f
+		f d' c e,
+		f16 c f a g c, g' b %5
+		a f e d c b a g
+		a8 f r4
+		r8 c''32( b a g) f8 a
+		r g32( f e d) c8 e
+		r f32( e d c) h8 d %10
+		e16 c d e f g a h
+		c g f e f f e d
+		e c d e f g a h
+		c g f e f f e d
+		\tuplet 3/2 8 { e[ d c] } f d e8 d %15
+		c4 r
+		R2*12 %28
+		r4 r8 g'\p
+		g r g r %30
+		g r g r
+		a r g r
+		f r e r
+		a r g r
+		f r e r %35
+		R2*8 \bar ":|.|:" %43
+		r8 \once \slurDashed g32(\fE f e d) c8 c
+		c[ \grace { f16 g } a8 g h,] %45
+		c4 r
+		R2*4 %50
+		a'8\p r h r
+		c r d r
+		c r c r
+		h r h r
+		a r a r %55
+		gis r r4
+		R2*2
+		r8 e32(\fE d c h) a8 a
+		a[ \grace { d16[ e] } f8 e gis,] %60
+		a16 e a c h e, h' d
+		c a h c d e fis gis
+		a e d c d d c h
+		c a h c d e fis gis
+		a e d c d d c h %65
+		\tuplet 3/2 8 { c[ h a] } d h c8 h
+		a4 r
+		R2*17 %84
+		r16 c\f d e f g a h %85
+		c g f e f f e d
+		e c d e f g a h
+		c g f e f f e d
+		e8 c r f\pE
+		f g r g %90
+		g a r a
+		a b r b
+		b c r c
+		c r r4
+		R2*4 %98
+		r8 c32(\f b a g) f8 es
+		d d'32( c b a) g8 f %100
+		e g32( f e d) c8 b
+		a16 f g a b c d e
+		f c b a b b a g
+		a f g a b c d e
+		f c b a b b a g %105
+		\tuplet 3/2 8 { a[ g f] } b g a8 g
+		f4 r\fermata \bar ":|." %107 FINIS
 	}
 }

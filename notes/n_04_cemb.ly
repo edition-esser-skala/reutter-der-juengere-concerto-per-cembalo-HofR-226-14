@@ -893,18 +893,18 @@ ConcertoFIIICembaloR = {
 		e c r4 %85
 		R2*3
 		r8 c f16 c c8\prall
-		d16 b b8\prall g'16 d d8\prall
+		d16 b b8\prall g'16 d d8\prall %90
 		e16 c c8\prall a'16 e e8\prall
 		f16 d d8\prall b'16 f f8\prall
 		g16 e e8\prall c'16 g g8\prall
 		\tuplet 3/2 8 { a16[ g f] b a g c[ b a] d c b }
-		c e, f b << { a8 g } \\ { f e } >>
+		c e, f b << { a8 g } \\ { f e } >> %95
 		\tuplet 3/2 8 { a16[ g f] b a g c[ b a] d c b }
 		\tuplet 3/2 8 { c[ b a] a g f } << { a8 g } \\ { f e } >>
 		\tuplet 3/2 8 { a16[ g f] b a g } << { a8 g } \\ { f e } >>
 		<< { <f c>4 } \\ { a, } >> r
-		R2*7
-		R2\fermataMarkup \bar ":|."
+		R2*7 %106
+		R2\fermataMarkup \bar ":|." %107 FINIS
 	}
 }
 

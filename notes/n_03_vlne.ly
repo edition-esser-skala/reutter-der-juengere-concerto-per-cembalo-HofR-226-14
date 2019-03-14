@@ -458,7 +458,7 @@ ConcertoFIIIViolone = {
 		f g a b
 		a b c c,
 		f d' c c,
-		f4. a8
+		f4.\fE a8
 		b4. h8 %100
 		c4. e,8
 		f4. b8

@@ -7,11 +7,44 @@
 \include "../definitions.ly"
 
 \paper {
-	first-page-number = #1
-	systems-per-page = #2
+	#(set-paper-size "a4" 'portrait)
+	indent = 2\cm
+	top-margin = 1.5\cm
+	system-separator-markup = ##f
+	system-system-spacing =
+    #'((basic-distance . 17)
+       (minimum-distance . 17)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-system-spacing =
+    #'((basic-distance . 17)
+       (minimum-distance . 17)
+       (padding . -100)
+       (stretchability . 0))
+	
+	top-markup-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . -100)
+       (stretchability . 0))
+		
+	markup-system-spacing =
+    #'((basic-distance . 17)
+       (minimum-distance . 17)
+       (padding . -100)
+       (stretchability . 0))
+	
+	last-bottom-spacing =
+    #'((basic-distance . 0)
+       (minimum-distance . 0)
+       (padding . 0)
+       (stretchability . 1.0e7))
+	
+	systems-per-page = #6
 }
 
-#(set-global-staff-size 15.87)
+#(set-global-staff-size 17.82)
 
 \book {
 	\bookpart {
@@ -24,22 +57,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ConcertoCIViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\ConcertoCIViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Violone"
-						\ConcertoCIViolone
-					>>
-				>>
 				\new PianoStaff <<
 					\set PianoStaff.instrumentName = "Cembalo"
 					\new Staff {
@@ -50,8 +67,6 @@
 					}
 				>>
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
@@ -61,19 +76,6 @@
 		\paper { indent = 0\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\ConcertoCIIViolinoI
-						}
-						\new Staff {
-							\ConcertoCIIViolinoII
-						}
-					>>
-					\new Staff {
-						\ConcertoCIIViolone
-					}
-				>>
 				\new PianoStaff <<
 					\new Staff {
 						\ConcertoCIICembaloR
@@ -83,8 +85,6 @@
 					}
 				>>
 			>>
-			\layout { }
-			\midi { \tempo 4 = 60 }
 		}
 	}
 	\bookpart {
@@ -94,19 +94,6 @@
 		\paper { indent = 0\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\ConcertoCIIIViolinoI
-						}
-						\new Staff {
-							\ConcertoCIIIViolinoII
-						}
-					>>
-					\new Staff {
-						\ConcertoCIIIViolone
-					}
-				>>
 				\new PianoStaff <<
 					\new Staff {
 						\ConcertoCIIICembaloR
@@ -116,8 +103,6 @@
 					}
 				>>
 			>>
-			\layout { }
-			\midi { \tempo 8 = 150 }
 		}
 	}
 	\bookpart {
@@ -130,22 +115,6 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Violino I"
-							\ConcertoFIViolinoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Violino II"
-							\ConcertoFIViolinoII
-						}
-					>>
-					\new Staff <<
-						\set Staff.instrumentName = "Violone"
-						\ConcertoFIViolone
-					>>
-				>>
 				\new PianoStaff <<
 					\set PianoStaff.instrumentName = "Cembalo"
 					\new Staff {
@@ -156,8 +125,6 @@
 					}
 				>>
 			>>
-			\layout { }
-			\midi { \tempo 4 = 90 }
 		}
 	}
 	\bookpart {
@@ -167,19 +134,6 @@
 		\paper { indent = 0\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\ConcertoFIIViolinoI
-						}
-						\new Staff {
-							\ConcertoFIIViolinoII
-						}
-					>>
-					\new Staff <<
-						\ConcertoFIIViolone
-					>>
-				>>
 				\new PianoStaff <<
 					\new Staff {
 						\ConcertoFIICembaloR
@@ -189,8 +143,6 @@
 					}
 				>>
 			>>
-			\layout { }
-			\midi { \tempo 4. = 50 }
 		}
 	}
 	\bookpart {
@@ -200,19 +152,6 @@
 		\paper { indent = 0\cm }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\ConcertoFIIIViolinoI
-						}
-						\new Staff {
-							\ConcertoFIIIViolinoII
-						}
-					>>
-					\new Staff <<
-						\ConcertoFIIIViolone
-					>>
-				>>
 				\new PianoStaff <<
 					\new Staff {
 						\ConcertoFIIICembaloR
@@ -222,8 +161,6 @@
 					}
 				>>
 			>>
-			\layout { }
-			\midi { \tempo 2 = 60 }
 		}
 	}
 }

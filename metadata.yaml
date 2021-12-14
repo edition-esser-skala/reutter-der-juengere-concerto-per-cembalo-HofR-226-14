@@ -1,24 +1,19 @@
-composer: Reutter der Jüngere, Georg
-title: Two concerts for cembalo
-id: HofR 226/13 and 14
+composer:
+  last: Reutter
+  suffix: der Jüngere
+  first: Georg
+title: Concerto per cembalo
+id: HofR 226/14
 genre: concerto
-scoring: 2 vl, vlne, cemb
+scoring: 2 vl, b, cemb
+license: cc-by-nc-sa-4.0
 sources:
-  1:
-    siglum: D-B
-    shelfmark: Mus.ms. 18394/1
-    type: manuscript copy
-    date: ca. 1800
-    rism: 452500196
-    url: http://resolver.staatsbibliothek-berlin.de/SBB0000365D00000000
-  2:
+  B1:
     siglum: D-B
     shelfmark: Mus.ms. 18394/2
-    type: manuscript copy
     date: ca. 1800
     rism: 452500197
-    url: http://resolver.staatsbibliothek-berlin.de/SBB0000366000000000
-github: reutter-concerti-per-cembalo-HofR-226-13-14
-imslp: Harpsichord_Concerto_in_C_major_(Reutter%2C_Georg)
-notes:
-
+    url: https://resolver.staatsbibliothek-berlin.de/SBB0000366000000000
+    license: CC BY-NC-SA 4.0
+    principal: true
+imslp: Harpsichord_Concerto_in_C_major_(Reutter,_Georg)
